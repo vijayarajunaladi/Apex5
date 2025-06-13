@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .project {
+      background: #fff;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      loading: lazy;
+    }
+
+    @media (max-width: 768px) {
+      header, .project {
+        padding: 10px;
+      }
+
+      body {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Web Developer | Designer | Freelancer</p>
+  </header>
+
+  <div class="container">
+    <div class="project">
+      <h2>Project 1: E-Commerce Website</h2>
+      <img src="https://via.placeholder.com/800x300" alt="Project Screenshot" />
+      <p>This is a sample e-commerce site built with HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="project">
+      <h2>Project 2: Blog Platform</h2>
+      <img src="https://via.placeholder.com/800x300" alt="Project Screenshot" />
+      <p>A responsive blog site with mobile-friendly layout and optimized performance.</p>
+    </div>
+  </div>
+
+  <script>
+    // Minified JS functionality (Performance optimized)
+    document.addEventListener("DOMContentLoaded", function () {
+      console.log("Page loaded and ready!");
+    });
+  </script>
+
+</body>
+</html>
